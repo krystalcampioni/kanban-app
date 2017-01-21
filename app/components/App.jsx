@@ -67,7 +67,7 @@ class App extends React.Component {
     return (
       <div>
         {this.props.test}
-        <button onClick={this.addNote}>+</button>
+        <button onClick={this.addNote} className="add-note">+</button>
         <Notes
           notes={notes}
           onDelete={this.deleteNote}
